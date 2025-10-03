@@ -1,0 +1,95 @@
+/* Login and Register */
+body {
+  background: url("images/peace.gif") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Times New Roman';
+  cursor: url('images/stolobelly.png') 16 16, pointer;
+  
+}
+.card {
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+  background: rgba(188, 213, 240, 0) !important;
+  
+}
+
+h3 {
+color:rgba(240, 93, 189, 0.712);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(226, 135, 74, 0.8)
+}
+
+.login-button {
+  background-color: rgb(114, 193, 227); 
+  color: white;          
+  border: none;             
+}
+.login-button:hover {
+  background-color: rgb(0, 179, 211); 
+  color: white; 
+}
+.register-button {
+  background-color:  rgb(114, 193, 227);
+  color: white;             
+  border: none;              
+}
+
+.register-button:hover {
+  background-color:rgb(0, 179, 211); 
+} 
+
+/* Landing Page */
+ .navbar-white {
+      background-color:rgba(241, 179, 219, 0.712);
+    color:rgb(255, 255, 255)!important;
+    text-decoration: none;
+    font-size: 20px;
+    }
+  .welcome-text { 
+color: rgb(47, 134, 4);
+  }
+.join-btn {
+  background-color: rgb(244, 140, 208)!important;
+  color: white !important;               
+  border: none;
+}
+
+.join-btn:hover {
+  background-color: rgb(223, 53, 164)!important;  /* darker pink on hover */
+}
+.card {
+  padding: 20px; /* space inside the card */
+  border-radius: 10px; /* rounded corners */
+  backdrop-filter: blur(8px); /* optional blur */
+}
+.card-title{
+  color: rgb(179, 214, 241) !important;
+  margin-top: auto;
+  
+}
+.card img{
+  height: 200px;
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.bg-pink {
+  background-color: rgba(241, 179, 191, 0.751) ;
+}
+.nav-link{
+    color:rgb(255, 255, 255) !important;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.text-title {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(82, 197, 229);
+font-weight: bolder;
+}
